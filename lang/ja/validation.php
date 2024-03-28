@@ -1,6 +1,5 @@
 <?php
-// php artisan lang:publish
-// :attributeでmigrationファイル内のattribute()で指定した値が入る
+
 return [
 
     /*
