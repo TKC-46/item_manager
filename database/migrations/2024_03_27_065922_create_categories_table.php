@@ -17,12 +17,6 @@ class CreateCategoriesTable extends Migration
             $table->timestamps();
         });
 
-        /**
-        * DBを使いテーブルのコメントを設定するための
-        * クエリをクエリビルダやEloquent ORMを使わずに
-        * 直接実行
-        */
-        DB::statement('ALTER TABLE categories COMMENT "カテゴリテーブル"');
     }
 
     /**
