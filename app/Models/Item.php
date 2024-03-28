@@ -23,9 +23,6 @@ class Item extends Model
 
     public function category(): BelongsTo
     {
-        // $this は Item クラスのインスタンスを指している
-        // PHPの組み込みの class 定数を使用して、クラス名の文字列を取得する
-        // そのためuseする必要がない
         return $this->belongsTo(Category::class);
     }
 }
